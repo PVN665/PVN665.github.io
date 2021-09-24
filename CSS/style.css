@@ -38,9 +38,6 @@ header
     background-size: cover;
     padding-left: 250px;
     padding-top: 100px;
+    display: flex;
 }
-footer
-{
-    flex-row-div;
-    flex-row-div-between-center;
-}
+
