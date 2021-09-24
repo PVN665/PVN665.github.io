@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: 'Antic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('')
+    url('../fonts/antic-v12-latin-regular.eot') format('eot'),
+    url('../fonts/antic-v12-latin-regular') format('svg')
+    url('../fonts/antic-v12-latin-regular') format('TrueType')
+    url('../fonts/antic-v12-latin-regular.woff') format('woff')
+    url('../fonts/antic-v12-latin-regular.woff2') format('woff2')
+}
+body
+{
+    font-family: 'Antic';
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    
+}
+.menuElement{
+    margin-left: 20px;
+    border-left: 2px solid black;
+}
+header
+{
+    text-align: center;
+    background-image: url(../img/shapka2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #020305;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+footer
+{
+    flex-row-div;
+    flex-row-div-between-center;
+}
