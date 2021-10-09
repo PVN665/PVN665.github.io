@@ -10,35 +10,117 @@
     url('../fonts/antic-v12-latin-regular.woff') format('woff')
     url('../fonts/antic-v12-latin-regular.woff2') format('woff2')
 }
+
+html{
+    background-color: rgb(234, 250, 245);
+}
 body
 {
     font-family: 'Antic';
 }
+
 ul{
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-left: 10px;
-    
 }
+
+.uslugi{
+    list-style-type:circle;
+}
+
+
+.footer{
+    display: flex;
+}
+
 .menuElement{
     margin-left: 20px;
-    border-left: 2px solid black;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+   
 }
-header
-{
+.HLogo{
+    flex-grow: 2;
+    flex-basis: 400px;
+}
+.liElemnt{
+    flex-grow: 1;
+}
+
+head{
+    
     text-align: center;
     background-image: url(../img/shapka2.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-position: left;
-    background-color: #020305;
+    background-color: #000000;
     background-attachment: fixed;
     background-size: cover;
     padding-left: 250px;
     padding-top: 100px;
-    display: flex;
+    width: 100%;
 }
 
+header{
+    text-align: center;
+    background-image: url(../img/shapka2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 250px;
+    padding-top: 100px;
+    width: 100%;
+}
 
+.blok2{
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+ul {
+list-style: none;  
+margin: 0; 
+padding-left: 0; 
+margin-top:25px; 
+
+}
+
+a:hover {
+background:#000000;
+}
+
+li {
+float:left; 
+margin-right:5px; 
+}
+
+.liborder{
+    border-left: 2px solid black;
+    height: 20px;
+}
+
+.headerbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.blockabout{
+    height: 250px;
+    font-weight: 1200px;
+    background-color: salmon;
+
+}
+.aabout{
+    background-color: rgb(252, 223, 109);
+    background: rgb(109, 252, 133);
+    text-emphasis-color: #ff7a7a;
+}
